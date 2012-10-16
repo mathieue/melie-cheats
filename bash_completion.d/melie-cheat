@@ -1,0 +1,8 @@
+CHEATS_HOME=~/src/melie-cheats/cheats
+
+_melie-cheat() {
+    local cur=${COMP_WORDS[COMP_CWORD]}
+    COMPREPLY=( $(compgen -W '$(ls -1 ${CHEATS_HOME})' -- $cur) )
+}
+
+complete -F _melie-cheat melie-cheat

@@ -1,0 +1,4 @@
+#!/bin/bash
+CHEATS_HOME=~/src/melie-cheats/cheats
+
+cat ${CHEATS_HOME}/${1}
