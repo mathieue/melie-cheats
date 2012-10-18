@@ -1,0 +1,2 @@
+# Install
+bash < <(curl -s https://raw.github.com/mathieue/melie-cheats/master/install.sh)
